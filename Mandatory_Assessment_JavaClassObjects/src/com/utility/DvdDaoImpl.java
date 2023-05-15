@@ -85,12 +85,7 @@ public class DvdDaoImpl implements DvdDao {
 		List<Dvd> searchResults = new ArrayList<>();
 		
 		for(Dvd dvd : allDvds) {
-			if (
-				dvd.getTitle().toUpperCase().contains(searchPhrase.toUpperCase())
-				|| dvd.getDirectorName().toUpperCase().contains(searchPhrase.toUpperCase())
-				|| dvd.getStudio().toUpperCase().contains(searchPhrase.toUpperCase())
-				|| dvd.getUserNote().toUpperCase().contains(searchPhrase.toUpperCase())
-			)
+			if (dvd.getTitle().toUpperCase().contains(searchPhrase.toUpperCase()))
 				searchResults.add(dvd);
 		}
 			

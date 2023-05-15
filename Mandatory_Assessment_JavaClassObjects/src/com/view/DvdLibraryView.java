@@ -15,7 +15,7 @@ public class DvdLibraryView {
 		System.out.println("[3] Edit a DVD");
 		System.out.println("[4] View all DVDs");
 		System.out.println("[5] View a DVD's details");
-		System.out.println("[6] Search for a DVD");
+		System.out.println("[6] Search for a DVD by title");
 		System.out.println("[7] Load DVDs from file");
 		System.out.println("[8] Save DVDs to file");
 		System.out.println("[9] Exit");
